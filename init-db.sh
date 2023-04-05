@@ -7,12 +7,12 @@ EOSQL
 #----------------------------------
 #----------------------------------
 psql <<-EOSQL
-CREATE DATABASE "groupmanagement";
+CREATE DATABASE "yti_groupmanagement";
 EOSQL
 #----------------------------------
 #----------------------------------
 psql <<-EOSQL
-CREATE DATABASE "terminology";
+CREATE DATABASE "yti_terminology";
 EOSQL
 #----------------------------------
 #----------------------------------
@@ -23,5 +23,10 @@ EOSQL
 #----------------------------------
 psql <<-EOSQL
 CREATE DATABASE "yti_messaging";
+EOSQL
+#----------------------------------
+#----------------------------------
+psql <<-EOSQL
+CREATE DATABASE "yti_keycloak";
 EOSQL
 #----------------------------------
